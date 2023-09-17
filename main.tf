@@ -1,5 +1,5 @@
 resource "aws_instance" "sonarqube_server" {
-  ami                    = "ami-07fb9d5c721566c65"
+  ami                    = "ami-04cb4ca688797756f"
   instance_type          = "t2.medium"
   key_name               = "test-key"
   vpc_security_group_ids = [aws_security_group.sonarqube_sg.id]
